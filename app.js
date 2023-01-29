@@ -11,9 +11,9 @@ window.requestAnimFrame = (function () {
   );
 })();
 
-const queryString = window.location.search;
+const queryString = window.location.search
 const urlParams = new URLSearchParams(queryString);
-const customText = urlParams.get('text') || 'YOU CAN DO IT';
+const customText = urlParams.get('text') || 'SELAMAT DATANG DI SEMESTER 4 SEMOGA HARI-HARIMU SELALU BAHAGIA';
 const space = '                        ';
 const txt = space + customText;
 
